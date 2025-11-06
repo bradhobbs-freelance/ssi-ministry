@@ -42,7 +42,7 @@
 
     /* Left column (main content) */
     .content {
-      flex: 3;
+      flex-basis 200px;
       background-color: white;
       padding: 20px;
       border-radius: 10px;
@@ -51,7 +51,7 @@
 
     /* Right column (sidebar) */
     .sidebar {
-      flex: none;
+      flex: 0 0 10px;
       background-color: #e8e8e8;
       padding: 10px;
       border-radius: 10px;
@@ -86,11 +86,11 @@
 <td>
   <main>
  <aside class="sidebar">
-      <h3>Sidebar</h3>
+      <h3>Links</h3>
       <ul>
-        <li><a href="#">Menu Item 1</a></li>
-        <li><a href="#">Menu Item 2</a></li>
-        <li><a href="#">Menu Item 3</a></li>
+        <li><a href="#">Item 1</a></li>
+        <li><a href="#">Item 2</a></li>
+        <li><a href="#">Item 3</a></li>
       </ul>
     </aside>
 </td><td>
