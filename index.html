@@ -51,9 +51,9 @@
 
     /* Right column (sidebar) */
     .sidebar {
-      flex: none;
+      flex: 0 0 50px;
       background-color: #e8e8e8;
-      padding: 1px;
+      padding: 10px;
       border-radius: 10px;
       box-shadow: 0 2px 5px rgba(0,0,0,0.1);
     }
@@ -82,13 +82,10 @@
   </header>
 
   <main>
-    <section class="content">
-      <h2>UNDER CONSTRUCTION</h2>
-      <p>We are just getting started check back soon for updates.</p>
-      <p>Our mission will be to serve Saint Simons Island in any capacity and from any street corner</p>
-    </section>
-
-    <aside class="sidebar">
+<table>
+<tr>
+<td>
+ <aside class="sidebar">
       <h3>Sidebar</h3>
       <ul>
         <li><a href="#">Menu Item 1</a></li>
@@ -96,6 +93,15 @@
         <li><a href="#">Menu Item 3</a></li>
       </ul>
     </aside>
+</td><td>
+    <section class="content">
+      <h2>UNDER CONSTRUCTION</h2>
+      <p>We are just getting started check back soon for updates.</p>
+      <p>Our mission will be to serve Saint Simons Island in any capacity and from any street corner</p>
+    </section>
+</td>
+</tr>
+</table>
   </main>
 
   <footer>
